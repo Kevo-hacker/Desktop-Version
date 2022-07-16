@@ -106,8 +106,7 @@ header {
   .workcard1,
 .workcard2,
 .work3,
-.works4,
-.works-temp1 {
+.works4 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -272,5 +271,141 @@ header {
     width: 100%;
     height: 100%;
   }
-  
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    width: 100%;
+    background: #fff;
+    border-radius: 0 50px 0 0;
+    padding: 100px 10px 200px 10px;
+    margin-top: 80px;
+  }
+  .about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .about .about-me {
+    align-items: center;
+    margin-left: 60px;
+  }
+  .my-self {
+    padding-left: 25px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #172b4d;
+  }
+  .me {
+    padding-left: 25px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    margin-top: 0;
+  }
+  .skills {
+    width: 100%;
+  }
+  .skills {
+    width: 90%;
+  }
+  .frames {
+    display: flex;
+    margin: 30px 0;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+ 
+  .images {
+    margin-right: 12px;
+  }
+  .drop-down {
+    margin: 8px 0 12px;
+  }
+  .frontend {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+  }
+  .frontend {
+    display: flex;
+    flex-direction: row;
+  }
+  .front-styles {
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px;
+    background: #f7f7f9;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+  }
+  .front-styles {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px 5px;
+  }
+  .name {
+    align-self: flex-start;
+  }
+  .frame1 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+.frameworks {
+    height: 24px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;
+  }
+  .separator-bar {
+    width: 100%;
+    list-style-type: none;
+  }
+  .background {
+    background: url("./images/desktop-contact.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    background-color: #6070ff;
+    border-radius: 90px 0 0 0;
+  }
+  .background {
+    background-color: white;
+  }
+  .contact-form {
+    width: 500px;
+    margin-bottom: 20px;
+    background: none;
+  }
+  .contact-form {
+    background-image: url(./images/background2.png);
+    background-color: #6070ff;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position-x: right;
+    background-position-y: 70px;
+    border-radius: 90px 0 0 0;
+    padding-top: 200px;
+  }
 /*end of styling*/
