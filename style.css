@@ -68,7 +68,7 @@ header {
 }
 
 .nav-link {
-  transition: all 0.5s ease;
+  transition: all 0.5;
 }
 
 .menu li {
