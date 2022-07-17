@@ -16,9 +16,9 @@
     <nav class="top-section">
         <a href="#"><h1 class="logo">My logo</h1></a>
         <ul class="menu">
-          <li class="nav-item link"><a href="#">Portfolio</a></li>
-          <li class="nav-item"><a href="#">About</a></li>
-          <li class="nav-item"><a href="#">Contact</a></li>
+          <li class="nav-item nav-link"><a href="#">Portfolio</a><li>
+          <li class="nav-item nav-link" ><a href="#">About</a></li>
+          <li class="nav-item nav-link"><a href="#">Contact</a></li>
         </ul>
         <div class="hambuger">
           <span class="bar-line"></span>
@@ -28,7 +28,7 @@
       </nav>
 </header>
 <section class="homepage">
-    <div class="head-name head-title">
+    <div class="headtitle-name headtitle">
       <h1 class="primary-text">I'm Kelvin<br />Glad to see you!</h1>
       <p class="para">
         I'm a software developer! I can help you build a product , feature or
@@ -192,7 +192,7 @@
           <div>
             <ul>
               <div class="frames">
-                <h3 class="lang">Languages</h3>
+                <h3 class="language">Languages</h3>
                 <img
                   src="images/down.png" class="drop-down" alt="Drop Down" />
               </div>
@@ -234,44 +234,21 @@
       <footer>
         <section class="background">
           <div class="contact-form">
-          <h2 class="contact-title">Contact me</h2>
-          <p class="p-contact">
+          <h2 class="title">Contact me</h2>
+          <p class="paragraph">
             If you have an application you are interested in developing, a feature
             that you need built or a project that needs coding. I’d love to help
             with it
           </p>
-          <form
-            class="contact-info"
-            action="https://formspree.io/f/mayvgkrd"
-            method="POST">
+          <form class="contact-info" action="https://formspree.io/f/mayvgkrd" method="POST">
             <input
-              type="text"
-              name="Name"
-              class="inp-form"
-              maxlength="30"
-              required
-              placeholder="Full name"
-            />
+              type="text" name="Name" class="name-field" maxlength="30" required placeholder="Full name"/>
   
-            <input
-              type="email"
-              name="_replyTo"
-              class="inp-form"
-              id="email"
-              placeholder="email"
-              required
-            />
+            <input type="email"name="_replyTo" class="name-field" id="email" placeholder="email" required/>
   
-            <textarea
-              name="message"
-              class="text-area"
-              cols="30"
-              rows="10"
-              maxlength="500"
-              placeholder="Write your message here"
-              required></textarea>
+            <textarea name="message" class="text-area" cols="30" ows="10" maxlength="500" placeholder="Write your message here" required></textarea>
   
-            <input type="submit" class="btncontact" value="Get Intouch" />
+            <input type="submit" class="contact-button" value="Get In touch" />
           </form>
           <div class="contact-bar">
             <img class="end-line" src="./images/Shape.png" alt="" />
