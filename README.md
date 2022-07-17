@@ -1,6 +1,6 @@
 # Desktop-Version
 - This is my fourth Project of building portfolio website
-- I will create sections within the website where i will include my portfolio projects to be viewable in desktop version.
+- I will create sections within the website where i will include my portfolio projects to be viewable in desktop version and mobile version devices.
 - This sections of the mobile website include:
     1. THe toolbar section
     2. Works section
